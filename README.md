@@ -6,7 +6,7 @@ La mejor catedra
 -matplotlib
 -scipy
 
-## para quiene usen VirtualEnvs:
+## para quienes usen VirtualEnvs:
 
 > virtaulenv env  &nbsp;
 >  source env/bin/activate &nbsp;
