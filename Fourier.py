@@ -8,7 +8,7 @@ v = (T/d)**.5 #velocidad de fase
 
 #este es nuestro favorito
 
-#como nos enseñaron los mejores profesores de F2 de la histora,
+#como nos enseñaron lxs mejores profesores de F2 de la histora,
 #las condiciones iniciales las vamos a dar a partir de una funcion
 #por ahora solo hicimos para la de posicion inicial, la de velocidad la vamos
 #a meter en github uno de estos dias :D
