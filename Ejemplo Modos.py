@@ -1,4 +1,6 @@
 from DepineF2 import Modo
+# si lo instalan usan:
+# from F2Depine import modos y usan modos.Modo
 
 L = 10 #m
 T = 120 #N

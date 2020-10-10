@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: F2Depine
+Version: 0.0.2
+Summary: Para resolver ejercicios de F2
+Home-page: https://github.com/Corri3141/F2Depine
+Author: Corrado De Luca
+Author-email: corrideluca@gmail.com
+License: MIT
+Description: # F2Depine
+        La mejor catedra
+        
+        ## Requisitos para usar la "librería":
+        -numpy
+        -matplotlib
+        -scipy
+        
+        ## para quienes usen VirtualEnvs:
+        
+        > virtaulenv env  &nbsp;
+        >  source env/bin/activate &nbsp;
+        >  pip install -r requirements.txt &nbsp;
+         
+        
+        
+Keywords: f2depine
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

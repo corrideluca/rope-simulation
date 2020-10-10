@@ -1,0 +1,10 @@
+README.md
+setup.py
+F2Depine/__init__.py
+F2Depine/fourier.py
+F2Depine/modos.py
+F2Depine.egg-info/PKG-INFO
+F2Depine.egg-info/SOURCES.txt
+F2Depine.egg-info/dependency_links.txt
+F2Depine.egg-info/requires.txt
+F2Depine.egg-info/top_level.txt
