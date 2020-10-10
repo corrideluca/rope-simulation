@@ -8,5 +8,5 @@ def F(x):
     else:
         return 0
 
-pulso_rectangular = soga.CondicionesIniciales("cerrado", 10, 60, F, range(100))
+pulso_rectangular = soga.CondicionesIniciales("cerrado", 10, 60, F, range(100)) #10 es el largo de la soga , 60 es v_f
 anim = pulso_rectangular.animate(1000)
