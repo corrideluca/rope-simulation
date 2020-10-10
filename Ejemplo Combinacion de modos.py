@@ -1,14 +1,11 @@
-from DepineF2 import CombinacionDeModos
-# si lo instalan usan:
-# from F2Depine import soga y usan soga.CombinacionDeModos
-
+from DepineF2 import soga
 L = 10 #m
 T = 120 #N
 d = 2 #g/cm
 v = (T/d)**.5 #velocidad de fase
 
 # creamos una variable que nos almacene esta combinacion
-modos = CombinacionDeModos([1,3,4,5],"cerrado",L,v)
+modos = soga.CombinacionDeModos([1,3,4,5],"cerrado",L,v)
 
 # le pasamos una lista que puede ser tambien un range :D en el primer parametro
 
