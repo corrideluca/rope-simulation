@@ -1,13 +1,11 @@
-from DepineF2 import Modo
-# si lo instalan usan:
-# from F2Depine import soga y usan soga.Modo
+from F2Depine import soga
 
 L = 10 #m
 T = 120 #N
 d = 2 #g/cm
 v = (T/d)**.5 #velocidad de fase
 
-modo1 = Modo(1, "cerrado", L, v)
+modo1 = soga.Modo(1, "cerrado", L, v)
 # El Primer parametro es el numero de modo que queremos
 #el segundo son las condiciones de contorno ("abierto","cerrado","mixto")
 # obviamente el tercero es L
