@@ -1,6 +1,6 @@
 from DepineF2 import Modo
 # si lo instalan usan:
-# from F2Depine import modos y usan modos.Modo
+# from F2Depine import soga y usan soga.Modo
 
 L = 10 #m
 T = 120 #N
