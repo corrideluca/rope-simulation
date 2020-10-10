@@ -98,9 +98,9 @@ class CombinacionDeModos():
         return animation.FuncAnimation(fig,animacion, frames=1000, interval=100)
 
 class CondicionesIniciales():
-    def __init__(self, contorno, L, v, initial_position):
+    def __init__(self, contorno, L, v, initial_position, rango_modos):
         self.f = initial_position
-        self.modos = range(100)
+        self.modos = rango_modos
         self.length = L
         self.contorno = contorno
         self.v = v
@@ -121,15 +121,15 @@ class CondicionesIniciales():
         x = np.linspace(0, self.length, 1000)
         plt.plot(x, self.get_ecuation(x,0))
        
-    def animate(self):
+    def animate(self, frames):
         fig, ax = plt.subplots()
         line,=ax.plot([],[],zorder=3)
         x = np.linspace(0,self.length,1000)
         ax.set_ylim(-max(self.get_ecuation(x, 0)),max(self.get_ecuation(x, 0)))
         ax.set_xlim(0,self.length)
-        t = np.linspace(0,10, 800)
+        t = np.linspace(0,10, frames)
         def animacion(i):
             line.set_data(x,self.get_ecuation(x,t[i]))
             
-        return animation.FuncAnimation(fig,animacion, frames=800, interval=100)
+        return animation.FuncAnimation(fig,animacion, frames=frames, interval=100)
         
