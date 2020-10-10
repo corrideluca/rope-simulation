@@ -7,13 +7,13 @@ La mejor catedra
 
 ## Para cuando quieran usar funciones de Fourier:
 
-> from F2Depine import soga;
+> from F2Depine import soga
 ### Luego usan
 >  soga = soga.CondicionesIniciales(contoro,longitud,v_f, F(x),rango_de_modos)# vean el ejemplo de fourier para 
  
 ## Para cuando quieran usar funciones de Modos:
 
-> from F2Depine import soga;
+> from F2Depine import soga
 ### Luego usan
 >  modo1 = soga.Modo(1,contoro,longitud,v_f)# vean el ejemplo de Modo
 ### Esto mismo si quieren combinacion de modos usan
