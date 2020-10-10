@@ -1,5 +1,5 @@
 # F2Depine
-La mejor catedra
+La mejor catedra, DepineArmy
 
 ## Para instalarlo corran en la consola el siguiente comando:
 ### pueden probar con pip o pip3
