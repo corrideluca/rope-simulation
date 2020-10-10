@@ -21,7 +21,9 @@ def F(x) : return(np.sin(np.pi*x/(L))+(1/3)*np.sin(3*np.pi*x/L)+(1/5)*np.sin(5*n
 
 #creamos nuestro objeto
 
-soga = CondicionesIniciales("cerrado",L,v,F) #le metemos F como el ultimo parametro :D
+soga = CondicionesIniciales("cerrado",L,v,F,range(100)) #le metemos F como el ultimo parametro :D
+#el range(100) es el rango de modos que se va a usar para la suma, en este caso del 0 al 99
+
 
 #ahora obviamente van a querer ver los graficos:
 
@@ -29,7 +31,7 @@ soga = CondicionesIniciales("cerrado",L,v,F) #le metemos F como el ultimo parame
 
 #y como hay grafico, tambien hay animación
 
-anim = soga.animate()
+anim = soga.animate(800) #le paso como parametro los frames
 
 #si por alguna razon, no queres los graficos y queres la ecuacion mas general
 
