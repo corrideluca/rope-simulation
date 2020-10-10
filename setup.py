@@ -10,7 +10,7 @@ classifiers = [
  
 setup(
   name='F2Depine',
-  version='0.0.3',
+  version='0.0.5',
   description='Para resolver ejercicios de F2',
   long_description=open('README.md').read(),
   url='https://github.com/Corri3141/F2Depine',  
