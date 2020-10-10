@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import animation
 from scipy.integrate import quad
-
+from modos import Modo
 
 plt.style.use('default')
 plt.style.use(['dark_background'])
