@@ -1,6 +1,9 @@
 from DepineF2 import CondicionesIniciales
 import numpy as np # ya que hay cosenos y senos lo mas probable es que usemos numpy
 
+# si lo instalan usan:
+# from F2Depine import fourier y usan fourier.CondicionesIniciales
+
 L = 10 #m
 T = 120 #N
 d = 2 #g/cm
