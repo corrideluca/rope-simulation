@@ -1,22 +1,37 @@
-# F2Depine
-La mejor catedra, DepineArmy
+# Rope Simulation
+F2Depine is a Python library created for calculating oscillation modes of ropes based on their tension, length, and other parameters. This library enables users to perform Fourier analysis and visualize animations based on the initial position of the ropes.
 
-## Para instalarlo corran en la consola el siguiente comando:
-### pueden probar con pip o pip3
->pip3 install F2Depine
+The finest lecture, DepineArmy
 
-## Para cuando quieran usar funciones de Fourier:
+## Installation
+To install, run the following command in your console. You can use either pip or pip3:
+```bash
+pip3 install F2Depine
+```
 
-> from F2Depine import soga
-### Luego usan
->  soga = soga.CondicionesIniciales(contoro,longitud,v_f, F(x),rango_de_modos)# vean el ejemplo de fourier para 
- 
-## Para cuando quieran usar funciones de Modos:
+## Usage: Fourier Functions
+If you wish to use Fourier functions, import the following from F2Depine:
+```python
+from F2Depine import soga
+```
 
-> from F2Depine import soga
-### Luego usan
->  modo1 = soga.Modo(1,contoro,longitud,v_f)# vean el ejemplo de Modo
-### Esto mismo si quieren combinacion de modos usan
-> modos = soga.CombinacionDeModos([1,4,5,7,8],.....) # vean el ejemplo de Combinacion de modos
- 
+Then, you can use the following syntax:
+```python
+soga = soga.CondicionesIniciales(contour, length, v_f, F(x), modes_range)# See the Fourier example for details
+```
 
+## Usage: Modes Functions
+If you want to use mode functions, import the following from F2Depine:
+```python
+from F2Depine import soga
+```
+
+Then, you can use the following syntax:
+```python
+mode1 = soga.Modo(1, contour, length, v_f)# See the Mode example for details
+```
+
+For combination of modes, you can use:
+```python
+modes = soga.CombinacionDeModos([1, 4, 5, 7, 8],.....) # See the Combination of Modes example for details
+```
