@@ -1,7 +1,6 @@
 # Rope Simulation
 F2Depine is a Python library created for calculating oscillation modes of ropes based on their tension, length, and other parameters. This library enables users to perform Fourier analysis and visualize animations based on the initial position of the ropes.
 
-The finest lecture, DepineArmy
 
 ## Installation
 To install, run the following command in your console. You can use either pip or pip3:
